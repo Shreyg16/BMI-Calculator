@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI</title>
+</head>
+
+<body style="background-color: #ffff94;">
+    <h2 class="h">BMI Calculator</h2>
+<div class="outer">
+   <div class="inner">
+        <form action=""> <br>
+            <label for="age" class="a">Age:-</label>
+            <input type="text"  id="age" placeholder="Enter age"> <br> <br> 
+            <label for="height" id="hei">Height:-</label>
+            <input type="text" placeholder="cm" id="height"> <br> <br>
+            <label for="weight" id="w">Weight:-</label> 
+            <input type="text" placeholder="kg" id="weight"> <br> <br>
+            <input type="button" value="Caculate" id="cal">
+        </form>
+        <div>
+            <p id="paragraph"></p>
+        </div>
+    </div>
+    
+    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231206171725/BMI-2.png" alt="" class="img">
+
+    
+</div>
+
+
+<script>
+          document.getElementById('cal').onclick = function () {
+              
+            let Height = document.getElementById('height').value;
+            let W = document.getElementById('weight').value;
+
+            let h =  Height/100;  // Convert height from cm to m
+
+            let m = parseFloat (h * h) ;
+
+            let b = parseInt( W / m);
+
+            document.getElementById('paragraph').innerHTML = `Your BMI Result is ${b} kg/m sq`;
+
+          }
+    </script>
+</body>
+</html>

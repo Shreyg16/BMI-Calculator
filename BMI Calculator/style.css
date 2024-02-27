@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+
+.outer{
+    display: flex;
+}
+
+.h{
+    font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  color: #eb3c3c;
+  margin-left: 415px;
+  /* #ffff94 */
+}
+
+.inner{
+    border: 10px solid lightseagreen;
+    width: 40%;
+    height: 470px;
+    margin-left: 230px;
+}
+
+.a{
+    font-size: 30px;
+    margin-left: 100px;
+   color: #eb3c3c;
+   font-weight: bold;
+}
+#age{
+    width: 40%;
+    height: 40px;
+    margin-left: 108px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+}
+#hei{
+    font-size: 30px;
+    margin-left: 100px;
+    color: #eb3c3c;
+   font-weight: bold;
+}
+#height{
+    width: 40%;
+    height: 40px;
+    margin-left: 72px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+}
+#w{
+    font-size: 30px;
+    margin-left: 100px;
+    color: #eb3c3c;
+   font-weight: bold;
+}
+#weight{
+    width: 40%;
+    height: 40px;
+    margin-left: 68px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+#cal{
+    width: 30%;
+    height: 50px;
+    border: 10px;
+    border-radius: 25px;
+    background-color: lightseagreen;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-top: 40px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+
+.img{
+    width: 30%;
+    height: 350px;
+    margin-left: 85px;
+    margin-top: 70px;
+}
+#paragraph{
+    font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  color: #eb3c3c;
+  margin-left: 85px;
+}
+
